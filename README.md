@@ -8,6 +8,6 @@ I am open to pull requests if anyone wishes to extend it.
 1. Run `git clone https://github.com/vivekkalyanarangan30/xgboost`
 2. Open docker terminal and navigate to `/path/to/xgboost`
 3. Run `docker build -t xgboost .`
-4. Run `docker run -it -p 8888:8888 -v /path/to/scripts/:/usr/local/Personalized_Medicine --name xgboost -h xgboost xgboost`
+4. Run `docker run -it -p 8888:8888 -v /path/to/scripts/:/usr/local/scripts/ --name xgboost -h xgboost xgboost`
 5. Run `jupyter notebook --allow-root --ip=*` to run the notebook
 6. Access http://192.168.99.100:8888/ from your browser [assuming you are on windows and docker-machine has that IP. Otherwise just use localhost. You will have to provide the token as seen in your docker container terminal]
