@@ -1,0 +1,1 @@
+docker run -it -p 8889:8888 -v /c/Users/vk046010/Documents/Kaggle/Personalized\ Medicine/:/usr/local/Personalized_Medicine --name xgboost -h xgboost xgboost
